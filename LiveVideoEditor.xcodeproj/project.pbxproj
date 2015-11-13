@@ -16,6 +16,7 @@
 		1BEF8E421BF47F5C00810F89 /* LiveVideoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF8E411BF47F5C00810F89 /* LiveVideoEditorTests.swift */; };
 		1BEF8E4D1BF47F5C00810F89 /* LiveVideoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF8E4C1BF47F5C00810F89 /* LiveVideoEditorUITests.swift */; };
 		1BEF8E5E1BF47F9200810F89 /* CEMovieMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF8E5D1BF47F9200810F89 /* CEMovieMaker.m */; };
+		1BEF8E9D1BF5865400810F89 /* ExtUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF8E9C1BF5865400810F89 /* ExtUIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1BEF8E5B1BF47F9200810F89 /* LiveVideoEditor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveVideoEditor-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BEF8E5C1BF47F9200810F89 /* CEMovieMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMovieMaker.h; sourceTree = "<group>"; };
 		1BEF8E5D1BF47F9200810F89 /* CEMovieMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMovieMaker.m; sourceTree = "<group>"; };
+		1BEF8E9C1BF5865400810F89 /* ExtUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtUIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1BEF8E5A1BF47F7D00810F89 /* Supporting Files */,
 				1BEF8E291BF47F5C00810F89 /* AppDelegate.swift */,
 				1BEF8E2B1BF47F5C00810F89 /* ViewController.swift */,
+				1BEF8E9C1BF5865400810F89 /* ExtUIColor.swift */,
 				1BEF8E2D1BF47F5C00810F89 /* Main.storyboard */,
 				1BEF8E331BF47F5C00810F89 /* Assets.xcassets */,
 				1BEF8E351BF47F5C00810F89 /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 				1BEF8E5E1BF47F9200810F89 /* CEMovieMaker.m in Sources */,
 				1BEF8E2C1BF47F5C00810F89 /* ViewController.swift in Sources */,
 				1BEF8E2A1BF47F5C00810F89 /* AppDelegate.swift in Sources */,
+				1BEF8E9D1BF5865400810F89 /* ExtUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +513,7 @@
 				1BEF8E531BF47F5C00810F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BEF8E541BF47F5C00810F89 /* Build configuration list for PBXNativeTarget "LiveVideoEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				1BEF8E561BF47F5C00810F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BEF8E571BF47F5C00810F89 /* Build configuration list for PBXNativeTarget "LiveVideoEditorUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				1BEF8E591BF47F5C00810F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
